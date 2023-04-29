@@ -93,6 +93,15 @@ blockquote {
     width: 98%;
 }
 
+.prism-editor__line-numbers {
+    margin-top: 0.5rem;
+}
+
+.prism-editor-wrapper .prism-editor__textarea, .prism-editor-wrapper .prism-editor__editor, .prism-editor-wrapper .prism-editor__textarea {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
 
 textarea {
     border: none;
