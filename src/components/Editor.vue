@@ -4,7 +4,7 @@
             <transition name="fade" mode="out-in">
                 <span :key="1">
                   <label class="label is-pointer noselect button is-primary">
-                    <input @change="fileInput" accept=".txt, .css" type="file" required/>
+                    <input @change="fileInput" accept=".txt, .css, .sass, .scss" type="file" required/>
                     <span>
                       <i class="fas fa-upload pl-1 pr-2" /> Import
                     </span>
