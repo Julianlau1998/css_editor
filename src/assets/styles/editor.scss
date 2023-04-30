@@ -102,6 +102,9 @@ blockquote {
     padding-bottom: 0.5rem !important;
 }
 
+.prism-editor-wrapper {
+    overflow: hidden;
+}
 
 textarea {
     border: none;
