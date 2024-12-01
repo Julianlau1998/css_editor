@@ -27,6 +27,7 @@
             <div :key="1">
                 <prism-editor
                     class="my-editor"
+                    @click="addClick"
                     v-model="code"
                     :highlight="highlighter"
                     line-numbers />
